@@ -3,14 +3,18 @@
 \alias{corpora}
 \title{Load a data set from the corpora package}
 \usage{
-corpora(which)
+corpora(which, category)
 }
 \arguments{
 \item{which}{The data set to load, a string. If not given, then
 all data sets in the package are listed.}
+
+\item{category}{If given, \code{which} must be missing,
+and the data sets in the given category are listed.}
 }
 \value{
-A data frame containing the data set.
+A data frame containing the data set (if \code{which} is
+  given), or a character vector of data set names.
 }
 \description{
 Load a data set from the corpora package

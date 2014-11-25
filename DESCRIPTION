@@ -5,4 +5,5 @@ Maintainer: Gabor Csardi <csardi.gabor@gmail.com>
 Author: https://github.com/dariusk/corpora/graphs/contributors
 Description: A collection of small corpuses of interesting data.
 License: CC0
-LazyData: true
+Imports:
+    jsonlite
