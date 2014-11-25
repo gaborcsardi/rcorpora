@@ -1,1 +1,4 @@
 ^tags$
+/.travis.yml$
+/.editorconfig$
+
