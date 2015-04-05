@@ -1,7 +1,7 @@
 ^tags$
+^.travis.yml$
 /.travis.yml$
 /.editorconfig$
-
 ^Makefile$
 ^README.Rmd$
 ^README.markdown$
