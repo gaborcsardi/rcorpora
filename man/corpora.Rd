@@ -55,4 +55,9 @@ See \url{https://github.com/dariusk/corpora}.
 
 \Sexpr[results=rd]{corpora:::corpora_manual_2()}
 }
+\examples{
+corpora()
+corpora(category = "animals")
+corpora("foods/pizzaToppings")
+}
 

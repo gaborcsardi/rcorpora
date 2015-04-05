@@ -44,6 +44,10 @@
 #'
 #' @export
 #' @importFrom jsonlite fromJSON
+#' @examples
+#' corpora()
+#' corpora(category = "animals")
+#' corpora("foods/pizzaToppings")
 
 corpora <- function(which, category) {
 
