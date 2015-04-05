@@ -8,7 +8,7 @@ knitr::opts_chunk$set(
   fig.height = 8)
 ```
 
-# corpora
+# rcorpora
 
 > R package with a collection of small corpuses of interesting data
 
@@ -18,7 +18,7 @@ https://github.com/dariusk/corpora repository.
 ## Installation
 
 ```{r eval = FALSE}
-devtools::install_github("gaborcsardi/corpora")
+devtools::install_github("gaborcsardi/rcorpora")
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ data sets in the package, calling it with the name of a data
 set, returns the data set itself. For example
 
 ```{r}
-library(corpora)
+library(rcorpora)
 corpora()
 corpora("foods/pizzaToppings")
 ```

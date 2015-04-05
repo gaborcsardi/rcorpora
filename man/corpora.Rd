@@ -48,12 +48,12 @@ See \url{https://github.com/dariusk/corpora}.
 }
 \section{Data set caterories}{
 
-\Sexpr[results=rd]{corpora:::corpora_manual_1()}
+\Sexpr[results=rd]{rcorpora:::corpora_manual_1()}
 }
 
 \section{Data sets}{
 
-\Sexpr[results=rd]{corpora:::corpora_manual_2()}
+\Sexpr[results=rd]{rcorpora:::corpora_manual_2()}
 }
 \examples{
 corpora()

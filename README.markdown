@@ -1,7 +1,7 @@
 
 
 
-# corpora
+# rcorpora
 
 > R package with a collection of small corpuses of interesting data
 
@@ -12,7 +12,7 @@ https://github.com/dariusk/corpora repository.
 
 
 ```r
-devtools::install_github("gaborcsardi/corpora")
+devtools::install_github("gaborcsardi/rcorpora")
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ set, returns the data set itself. For example
 
 
 ```r
-library(corpora)
+library(rcorpora)
 corpora()
 ```
 

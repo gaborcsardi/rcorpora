@@ -1,4 +1,4 @@
-Package: corpora
+Package: rcorpora
 Title: A Collection of Small Corpuses of Interesting Data
 Version: 1.0.0
 Maintainer: Gabor Csardi <csardi.gabor@gmail.com>
@@ -14,5 +14,5 @@ Description: A collection of small corpuses of interesting data.
 License: CC0
 Imports:
     jsonlite
-URL: https://github.com/gaborcsardi/corpora
-BugReports: https://github.com/gaborcsardi/corpora/issues
+URL: https://github.com/gaborcsardi/rcorpora
+BugReports: https://github.com/gaborcsardi/rcorpora/issues
