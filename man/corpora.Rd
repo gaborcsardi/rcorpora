@@ -18,6 +18,41 @@ A data frame containing the data set (if \code{which} is
   given), or a character vector of data set names.
 }
 \description{
-Load a data set from the corpora package
+corpora is a collection of small corpuses of interesting data
+for the creation of bots and similar stuff.
+}
+\details{
+This project is a collection of static corpora (plural of "corpus") that
+are potentially useful in the creation of weird internet stuff. I've
+found that, as a creator, sometimes I am making something that needs
+access to a lot of adjectives, but not necessarily every adjective in
+the English language. So for the last year I've been copy/pasting an
+adjs.json file from project to project. This is kind of awful, so I'm
+hoping that this project will at least help me keep everything in one
+place.
+
+I would like this to help with rapid prototyping of projects. For
+example: you might use nouns.json to start with, just to see if an idea
+you had was any good. Once you've built the project quickly around the
+nouns collection, you can then rip it out and replace it with a more
+complex or exhaustive data source.
+
+I'm also hoping that this can be used as a teaching tool: maybe someone
+has three hours to teach how to make Twitter bots. That doesn't give the
+student much time to find/scrape/clean/parse interesting data. My hope
+is that students can be pointed to this project and they can pick and
+choose different interesting data sources to meld together for the
+creation of prototypes.
+
+See \url{https://github.com/dariusk/corpora}.
+}
+\section{Data set caterories}{
+
+\Sexpr[results=rd]{corpora:::corpora_manual_1()}
+}
+
+\section{Data sets}{
+
+\Sexpr[results=rd]{corpora:::corpora_manual_2()}
 }
 
