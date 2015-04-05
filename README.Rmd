@@ -10,6 +10,9 @@ knitr::opts_chunk$set(
 
 # rcorpora
 
+[![Linux Build Status](https://travis-ci.org/gaborcsardi/rcorpora.png?branch=master)](https://travis-ci.org/gaborcsardi/rcorpora)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/nx6o75ey4efo213s)](https://ci.appveyor.com/project/gaborcsardi/rcorpora)
+
 > R package with a collection of small corpuses of interesting data
 
 R package that contains all data sets from the fantastic

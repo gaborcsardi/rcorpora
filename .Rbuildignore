@@ -1,5 +1,6 @@
 ^tags$
 ^.travis.yml$
+^appveyor.yml$
 /.travis.yml$
 /.editorconfig$
 ^Makefile$
