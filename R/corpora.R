@@ -27,7 +27,7 @@
 #' choose different interesting data sources to meld together for the
 #' creation of prototypes.
 #'
-#' See \url{https://github.com/dariusk/corpora}.
+#' See https://github.com/dariusk/corpora
 #' 
 #' @section Data set caterories:
 #' \Sexpr[results=rd]{rcorpora:::corpora_manual_1()}

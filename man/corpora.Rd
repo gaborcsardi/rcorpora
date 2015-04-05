@@ -44,7 +44,7 @@ is that students can be pointed to this project and they can pick and
 choose different interesting data sources to meld together for the
 creation of prototypes.
 
-See \url{https://github.com/dariusk/corpora}.
+See https://github.com/dariusk/corpora
 }
 \section{Data set caterories}{
 
