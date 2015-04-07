@@ -8,8 +8,8 @@
 
 > R package with a collection of small corpuses of interesting data
 
-R package that contains all data sets from the fantastic
-https://github.com/dariusk/corpora repository.
+R package that contains all data sets from
+https://github.com/dariusk/corpora 
 
 ## Installation
 
