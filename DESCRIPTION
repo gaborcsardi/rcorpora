@@ -1,16 +1,23 @@
 Package: rcorpora
-Title: A Collection of Small Corpuses of Interesting Data
+Title: A Collection of Small Text Corpuses of Interesting Data
 Version: 1.0.0
 Maintainer: Gabor Csardi <csardi.gabor@gmail.com>
 Author: Darius Kazemi, Matthew Rothenberg, Karl Swedberg, Matthew Hokanson,
-    Nathan Lachenmyer, Aaron Marriner, Mark Sample, Casey Kolderup, Nathaniel Mitchell,
-    Daniel D. Beck, Mike Nowak, Ryan Freebern, Ross Barclay, Ross Binden,
-    Justin Alford, Cole Willsea, Andrew Gorman, Javier Arce, Patrick Rodriguez,
+    Nathan Lachenmyer, Aaron Marriner, Mark Sample, Casey Kolderup,
+    Nathaniel Mitchell, Daniel D. Beck, Mike Nowak, Ryan Freebern,
+    Ross Barclay, Ross Binden, Justin Alford, Cole Willsea,
+    Andrew Gorman, Javier Arce, Patrick Rodriguez,
     Liam Cooke, Will Hankinson, K. Adam White, Garrett Miller, Zac Moody,
     Jordan Killpack, Brian Jones, Greg Borenstein, Noah Swartz, Nathan Black,
-    Russell Horton, Mark Wunsch, Kay Belardinelli, Colin Mitchell, Michael Dewberry,
-    Joe Mahoney
-Description: A collection of small corpuses of interesting data.
+    Russell Horton, Mark Wunsch, Kay Belardinelli, Colin Mitchell,
+    Michael Dewberry, Joe Mahoney
+Description: A collection of small text corpuses of interesting data.
+    It contains all data sets from the fantastic
+    https://github.com/dariusk/corpora repository. Some examples:
+    names of animals: birds, dinosaurs, dogs; foods: beer categories,
+    pizza toppings; geography: English towns, rivers, oceans;
+    humans: authors, US presidents, occupations; science: elements,
+    planets; words: adjectives, verbs, proverbs, US president quotes.
 License: CC0
 Imports:
     jsonlite
