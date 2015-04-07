@@ -2,7 +2,7 @@
 ## ---------------------------------------------------------------------
 #' Load a data set from the corpora package
 #'
-#' corpora is a collection of small corpuses of interesting data
+#' corpora is a collection of small corpora of interesting data
 #' for the creation of bots and similar stuff.
 #'
 #' This project is a collection of static corpora (plural of "corpus") that

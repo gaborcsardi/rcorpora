@@ -18,7 +18,7 @@ A data frame containing the data set (if \code{which} is
   given), or a character vector of data set names.
 }
 \description{
-corpora is a collection of small corpuses of interesting data
+corpora is a collection of small corpora of interesting data
 for the creation of bots and similar stuff.
 }
 \details{

@@ -1,5 +1,5 @@
 Package: rcorpora
-Title: A Collection of Small Text Corpuses of Interesting Data
+Title: A Collection of Small Text Corpora of Interesting Data
 Version: 1.0.1
 Maintainer: Gabor Csardi <csardi.gabor@gmail.com>
 Author: Darius Kazemi, Matthew Rothenberg, Karl Swedberg, Matthew Hokanson,
@@ -11,7 +11,7 @@ Author: Darius Kazemi, Matthew Rothenberg, Karl Swedberg, Matthew Hokanson,
     Jordan Killpack, Brian Jones, Greg Borenstein, Noah Swartz, Nathan Black,
     Russell Horton, Mark Wunsch, Kay Belardinelli, Colin Mitchell,
     Michael Dewberry, Joe Mahoney
-Description: A collection of small text corpuses of interesting data.
+Description: A collection of small text corpora of interesting data.
     It contains all data sets from https://github.com/dariusk/corpora.
     Some examples:
     names of animals: birds, dinosaurs, dogs; foods: beer categories,
