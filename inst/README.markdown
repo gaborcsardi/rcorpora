@@ -7,8 +7,6 @@
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/github/gaborcsardi/rcorpora?svg=true)](https://ci.appveyor.com/project/gaborcsardi/rcorpora)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/rcorpora)](http://cran.r-project.org/web/packages/rcorpora/index.html)
 
-> R package with a collection of small corpuses of interesting data
-
 R package that contains all data sets from
 https://github.com/dariusk/corpora 
 
