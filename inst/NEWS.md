@@ -1,4 +1,8 @@
 
+# 1.1.1
+
+* Get rid of `R CMD check` notes.
+
 # 1.1.0
 
 New data sets:
