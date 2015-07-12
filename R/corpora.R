@@ -82,6 +82,8 @@ categories <- function() {
 
 ## Internal functions --------------------------------------------------
 
+#' @importFrom utils packageName
+
 my_data_dir <- function() {
   data_dir <- file.path("corpora", "data")
   system.file(data_dir, package = packageName())

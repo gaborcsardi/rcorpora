@@ -3,3 +3,4 @@
 export(categories)
 export(corpora)
 importFrom(jsonlite,fromJSON)
+importFrom(utils,packageName)
