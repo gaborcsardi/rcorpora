@@ -76,7 +76,10 @@ corpora <- function(which, category) {
 #' @export
 
 categories <- function() {
-  dir(my_data_dir())
+  setdiff(
+    list.dirs(my_data_dir(), full.names = FALSE),
+    ""
+  )
 }
 
 
