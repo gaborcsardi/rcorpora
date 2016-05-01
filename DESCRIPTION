@@ -2,15 +2,24 @@ Package: rcorpora
 Title: A Collection of Small Text Corpora of Interesting Data
 Version: 1.2.0
 Maintainer: Gabor Csardi <csardi.gabor@gmail.com>
-Author: Darius Kazemi, Matthew Rothenberg, Karl Swedberg, Matthew Hokanson,
-    Nathan Lachenmyer, Aaron Marriner, Mark Sample, Casey Kolderup,
-    Nathaniel Mitchell, Daniel D. Beck, Mike Nowak, Ryan Freebern,
-    Ross Barclay, Ross Binden, Justin Alford, Cole Willsea,
-    Andrew Gorman, Javier Arce, Patrick Rodriguez,
-    Liam Cooke, Will Hankinson, K. Adam White, Garrett Miller, Zac Moody,
-    Jordan Killpack, Brian Jones, Greg Borenstein, Noah Swartz, Nathan Black,
-    Russell Horton, Mark Wunsch, Kay Belardinelli, Colin Mitchell,
-    Michael Dewberry, Joe Mahoney
+Author: Darius Kazemi, Cole Willsea, Matthew Rothenberg,
+    Karl Swedberg, Daniel D. Beck, Javier Arce, Matthew
+    Hokanson, Casey Kolderup, Nathaniel Mitchell,
+    Mark Sample, Nathan Lachenmyer, Aaron Marriner, Greg Kennedy,
+    Greg Borenstein, Peter Organisciak, Rachel White, Tod Robbins,
+    John Wiseman, M. Nowak, Alice Maz, Allison Parrish, Andrew
+    Gorman, Colin Mitchell, David Whitten, Mary Dickson,
+    Michael R. Bernstein, Parker Higgins, Patrick Rodriguez, Ross
+    Barclay, Ross Binden, Ryan Freebern, Justin Alford, Brian
+    Detweiler, Ed Lea, John Ohno, Alexandra Murray, Sean May, Will
+    Hankinson, Brett O'Connor, Brian Jones, Casey Olson, Edward
+    Loveall, Felix Laurie von Massenbach, Garrett Miller, Grant
+    Williamson, Jacob Fauber, Joe Mahoney, Jordan Killpack, Kay
+    Belardinelli, K.Adam White, Kyle McDonald, Andy Dayton, Adam
+    Malantonio, Marcos Wright-Kuhns, Mark Wunsch, Max Bittker,
+    Michael Dewberry, Nathan Black, Noah Kantrowitz, Noah Swartz,
+    Ranjit Bhatnagar, Rob Huzzey, Russell Horton, Vincent Bruijn,
+    Virginia Murdoch, Zac Moody, Scott Grant, Tariq Ali
 Description: A collection of small text corpora of interesting data.
     It contains all data sets from https://github.com/dariusk/corpora.
     Some examples:
