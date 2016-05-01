@@ -24,3 +24,4 @@ Imports:
     utils
 URL: https://github.com/gaborcsardi/rcorpora
 BugReports: https://github.com/gaborcsardi/rcorpora/issues
+RoxygenNote: 5.0.1.9000

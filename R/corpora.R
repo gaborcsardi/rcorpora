@@ -29,7 +29,7 @@
 #'
 #' See https://github.com/dariusk/corpora
 #' 
-#' @section Data set caterories:
+#' @section Data set categories:
 #' \Sexpr[results=rd]{rcorpora:::corpora_manual_1()}
 #'
 #' @section Data sets:
