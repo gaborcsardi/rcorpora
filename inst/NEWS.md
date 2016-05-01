@@ -148,7 +148,7 @@ New data sets:
 
 * `societies_and_groups/designated_terrorist_groups/ukraine`
 
-* `societies_and_groups/designated_terrorist_groups/united_arab_emirates`
+* `societies_and_groups/designated_terrorist_groups/uae`
 
 * `societies_and_groups/designated_terrorist_groups/united_kingdom`
 
