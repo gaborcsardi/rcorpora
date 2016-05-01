@@ -29,6 +29,7 @@ This project is not meant to replace exhaustive APIs -- if you want nouns, and y
 
  * [corpora-project](https://www.npmjs.com/package/corpora-project), a Node.js NPM package for accessing corpora data offline.
  * [pycorpora](https://github.com/aparrish/pycorpora), a simple Python interface for corpora
+ * [corpora-api](https://github.com/coleww/corpora-api), a Node.js server that offers up the corpora as a JSON API
 
 ##I have some data, how do I submit?
 
@@ -42,3 +43,5 @@ We accept pull requests to this repository. Some guidelines:
 Contributors:
 
  * Tyler Kellen ([tkellen](https://github.com/tkellen)): prefixes and suffixes
+ * sui sea ([suisea](https://github.com/suisea)): curated/categorised emoji and words
+ * Parker Higgins ([thisisparker](https://github.com/thisisparker)): apple cultivars from the pomological watercolor collection
