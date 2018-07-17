@@ -41,8 +41,7 @@ Description: A collection of small text corpora of interesting data.
     planets; words: adjectives, verbs, proverbs, US president quotes.
 License: CC0
 Imports:
-    jsonlite,
-    utils
+    jsonlite
 URL: https://github.com/gaborcsardi/rcorpora
 BugReports: https://github.com/gaborcsardi/rcorpora/issues
 RoxygenNote: 6.0.1
