@@ -94,7 +94,7 @@ load_corpus <- function(which) {
   if (is.null(ret)) {
     filename <- paste0(file.path(my_data_dir(), which), ".json")
     if (!file.exists(filename)) stop("Corpus does not exist: ", which)
-    ret <- fromJSON(filename, warn = FALSE)
+    ret <- fromJSON(filename)
     cache[[which]] <- ret
   }
   ret
