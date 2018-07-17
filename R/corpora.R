@@ -63,9 +63,7 @@ corpora <- function(which, category) {
         dir(file.path(my_data_dir(), category), pattern = "\\.json$"))
 
   } else {
-    filename <- paste0(file.path(my_data_dir(), which), ".json")
-    if (!file.exists(filename)) stop("Corpus does not exist: ", which)
-    fromJSON(filename)
+    load_corpus(which)
   }
 }
 
@@ -85,13 +83,22 @@ categories <- function() {
 
 ## Internal functions --------------------------------------------------
 
-#' @importFrom utils packageName
-
 my_data_dir <- function() {
   data_dir <- file.path("corpora", "data")
-  system.file(data_dir, package = packageName())
+  system.file(data_dir, package = .packageName)
 }
 
+cache <- new.env(parent = emptyenv())
+load_corpus <- function(which) {
+  ret <- cache[[which]]
+  if (is.null(ret)) {
+    filename <- paste0(file.path(my_data_dir(), which), ".json")
+    if (!file.exists(filename)) stop("Corpus does not exist: ", which)
+    ret <- fromJSON(filename, warn = FALSE)
+    cache[[which]] <- ret
+  }
+  ret
+}
 
 corpora_manual_1 <- function() {
   paste(
