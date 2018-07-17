@@ -88,6 +88,17 @@ my_data_dir <- function() {
   system.file(data_dir, package = .packageName)
 }
 
+cache <- new.env(parent = emptyenv())
+load_corpus <- function(which) {
+  ret <- cache[[which]]
+  if (is.null(ret)) {
+    filename <- paste0(file.path(my_data_dir(), which), ".json")
+    if (!file.exists(filename)) stop("Corpus does not exist: ", which)
+    ret <- fromJSON(filename, warn = FALSE)
+    cache[[which]] <- ret
+  }
+  ret
+}
 
 corpora_manual_1 <- function() {
   paste(
@@ -104,7 +115,7 @@ corpora_manual_2 <- function() {
     d <- corpora(x)
     desc <- if ("description" %in% names(d)) d[["description"]] else ""
     src <- if ("source" %in% names(d)) paste("Source:", d[["source"]]) else ""
-    paste(desc, src, sep = "\n")
+    paste(desc, src, sep = " ")
   })
 
 
@@ -113,16 +124,4 @@ corpora_manual_2 <- function() {
     paste("\\item{", ds, "}{", desc_raw, "}", collapse = "\n"),
     "}"
   )
-}
-
-cache <- new.env(parent = emptyenv())
-load_corpus <- function(which) {
-  ret <- cache[[which]]
-  if (is.null(ret)) {
-    filename <- paste0(file.path(my_data_dir(), which), ".json")
-    if (!file.exists(filename)) stop("Corpus does not exist: ", which)
-    ret <- fromJSON(readLines(filename, warn = FALSE))
-    cache[[which]] <- ret
-  }
-  ret
 }
