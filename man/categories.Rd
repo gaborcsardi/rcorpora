@@ -12,4 +12,3 @@ Character vector of category names.
 \description{
 List data set categories in the corpora package
 }
-

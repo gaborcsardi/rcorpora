@@ -55,9 +55,9 @@ See https://github.com/dariusk/corpora
 
 \Sexpr[results=rd]{rcorpora:::corpora_manual_2()}
 }
+
 \examples{
 corpora()
 corpora(category = "animals")
 corpora("foods/pizzaToppings")
 }
-

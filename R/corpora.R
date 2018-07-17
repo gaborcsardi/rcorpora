@@ -108,7 +108,7 @@ corpora_manual_2 <- function() {
     d <- corpora(x)
     desc <- if ("description" %in% names(d)) d[["description"]] else ""
     src <- if ("source" %in% names(d)) paste("Source:", d[["source"]]) else ""
-    paste(desc, src, sep = "\n")
+    paste(desc, src, sep = " ")
   })
 
 

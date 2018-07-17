@@ -1,6 +1,6 @@
 Package: rcorpora
 Title: A Collection of Small Text Corpora of Interesting Data
-Version: 1.2.0
+Version: 2.0.0
 Maintainer: Gabor Csardi <csardi.gabor@gmail.com>
 Author: Darius Kazemi, Cole Willsea, Matthew Rothenberg,
     Karl Swedberg, Daniel D. Beck, Javier Arce, Matthew
@@ -33,4 +33,4 @@ Imports:
     utils
 URL: https://github.com/gaborcsardi/rcorpora
 BugReports: https://github.com/gaborcsardi/rcorpora/issues
-RoxygenNote: 5.0.1.9000
+RoxygenNote: 6.0.1
