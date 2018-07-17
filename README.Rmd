@@ -21,8 +21,6 @@ https://github.com/dariusk/corpora
 ## Installation
 
 ```{r eval = FALSE}
-# devtools::install_github("gaborcsardi/rcorpora")
-
 install.packages("rcorpora")
 ```
 
