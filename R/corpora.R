@@ -65,7 +65,7 @@ corpora <- function(which, category) {
   } else {
     filename <- paste0(file.path(my_data_dir(), which), ".json")
     if (!file.exists(filename)) stop("Corpus does not exist: ", which)
-    fromJSON(readLines(filename, warn = FALSE))
+    fromJSON(filename)
   }
 }
 
