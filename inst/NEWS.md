@@ -1,6 +1,10 @@
 
 # 2.0.0
 
+* Data sets are now cached to minimize loading times (#2, @richfitz)
+
+* Data files are always read in UTF-8 Encoding now (#3, #5, @isteves)
+
 New data sets:
 
 * `animals/cats`, `animals/donkeys`, `animals/horses`, `animals/ponies`
