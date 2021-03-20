@@ -1,0 +1,3 @@
+[submodule "inst/corpora"]
+	path = inst/corpora
+	url = https://github.com/dariusk/corpora
